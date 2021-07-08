@@ -1,4 +1,4 @@
-# Oblique Strategies - App Challenge
+# Oblique Strategies - App Challenge Week 4
 
 Download the starter project files as .zip and extract to your desktop or your folder of preference. 
 
