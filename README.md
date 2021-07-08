@@ -1,5 +1,7 @@
 # Oblique Strategies - App Challenge
 
+Download the starter project files as .zip and extract to your desktop or your folder of preference. 
+
 
 # What Will You Learn
 
