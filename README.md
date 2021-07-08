@@ -15,9 +15,7 @@ Download the starter project files as .zip and extract to your desktop or your f
 
 -Opening a link to Safari
 
--Use two view controllers 
-
--Use data model
+-Using a data model
 
 # Notes
 1. The Data Model is already created for you along with more than 1000 messages of Oblique Strategies
