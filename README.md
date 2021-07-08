@@ -1,4 +1,4 @@
-# obliquestrategies-starter
+# Oblique Strategies - App Challenge
 
 What Will You Learn
 
