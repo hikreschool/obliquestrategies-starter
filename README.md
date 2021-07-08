@@ -1,6 +1,8 @@
 # Oblique Strategies - App Challenge
 
-# obs-recording-2.0.gif
+
+# App Demo
+ ![ Alt text](obs-recording-2.0.gif) / ! [](obs-recording-2.0.gif)
 
 
 
