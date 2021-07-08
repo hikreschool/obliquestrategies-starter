@@ -21,7 +21,7 @@ What Will You Learn
 
 # App Demo
  
- <img src="/images/output/obs-recording-2.0.gif" width="250" height="250"/>
+ <img src="/obs-recording-2.0.gif" width="1000" height=1000"/>
 
 
 Copyright 2021 Hikre, Inc. Hikre School
