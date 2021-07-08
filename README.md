@@ -1,11 +1,6 @@
 # Oblique Strategies - App Challenge
 
 
-# App Demo
- ![ Alt text](obs-recording-2.0.gif) / ! [](obs-recording-2.0.gif)
-
-
-
 What Will You Learn
 
 -IBOutlets, IBActions
@@ -21,3 +16,10 @@ What Will You Learn
 -Use two view controllers 
 
 -Use data model
+
+
+
+# App Demo
+ ![ Alt text](obs-recording-2.0.gif) [](obs-recording-2.0.gif)
+
+
