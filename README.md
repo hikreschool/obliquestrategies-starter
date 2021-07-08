@@ -18,7 +18,7 @@ Download the starter project files as .zip and extract to your desktop or your f
 -Using a data model
 
 # Notes
-1. The Data Model is already created for you along with more than 1000 messages of Oblique Strategies
+1. The Data Model is already created for you along with more than 100 messages of Oblique Strategies
 2. The Second View Controller named as "DetailViewController" is also created for you along with code to display a link in Safari Webpage
 
 
