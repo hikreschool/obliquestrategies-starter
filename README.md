@@ -11,7 +11,7 @@ Download the starter project files as .zip and extract to your desktop or your f
 
 -Generating random number
 
--Presenting a Modal View Controller
+-Presenting a Modal Segue
 
 -Opening a link to Safari
 
