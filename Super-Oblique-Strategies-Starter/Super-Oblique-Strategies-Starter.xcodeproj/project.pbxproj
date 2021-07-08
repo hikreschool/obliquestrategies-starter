@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D942D72696F97F00E0C6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D942D62696F97F00E0C6CA /* AppDelegate.swift */; };
+		49D942D92696F97F00E0C6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D942D82696F97F00E0C6CA /* SceneDelegate.swift */; };
+		49D942DB2696F97F00E0C6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D942DA2696F97F00E0C6CA /* ViewController.swift */; };
+		49D942DE2696F97F00E0C6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D942DC2696F97F00E0C6CA /* Main.storyboard */; };
+		49D942E02696F98100E0C6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D942DF2696F98100E0C6CA /* Assets.xcassets */; };
+		49D942E32696F98100E0C6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D942E12696F98100E0C6CA /* LaunchScreen.storyboard */; };
+		49D942EE2696F98200E0C6CA /* Super_Oblique_Strategies_StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D942ED2696F98200E0C6CA /* Super_Oblique_Strategies_StarterTests.swift */; };
+		49D942F92696F98200E0C6CA /* Super_Oblique_Strategies_StarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D942F82696F98200E0C6CA /* Super_Oblique_Strategies_StarterUITests.swift */; };
+		49D943162696F9B700E0C6CA /* ObliqueMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D943152696F9B700E0C6CA /* ObliqueMessages.swift */; };
+		49D943222696FB3F00E0C6CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D943212696FB3F00E0C6CA /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D942EA2696F98200E0C6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D942CB2696F97F00E0C6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D942D22696F97F00E0C6CA;
+			remoteInfo = "Super-Oblique-Strategies-Starter";
+		};
+		49D942F52696F98200E0C6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D942CB2696F97F00E0C6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D942D22696F97F00E0C6CA;
+			remoteInfo = "Super-Oblique-Strategies-Starter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49D942D32696F97F00E0C6CA /* Super-Oblique-Strategies-Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super-Oblique-Strategies-Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D942D62696F97F00E0C6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49D942D82696F97F00E0C6CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49D942DA2696F97F00E0C6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49D942DD2696F97F00E0C6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D942DF2696F98100E0C6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D942E22696F98100E0C6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49D942E42696F98100E0C6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D942E92696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super-Oblique-Strategies-StarterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D942ED2696F98200E0C6CA /* Super_Oblique_Strategies_StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Oblique_Strategies_StarterTests.swift; sourceTree = "<group>"; };
+		49D942EF2696F98200E0C6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D942F42696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super-Oblique-Strategies-StarterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D942F82696F98200E0C6CA /* Super_Oblique_Strategies_StarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Oblique_Strategies_StarterUITests.swift; sourceTree = "<group>"; };
+		49D942FA2696F98200E0C6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D943152696F9B700E0C6CA /* ObliqueMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObliqueMessages.swift; sourceTree = "<group>"; };
+		49D943212696FB3F00E0C6CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D942D02696F97F00E0C6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942E62696F98200E0C6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942F12696F98200E0C6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D942CA2696F97F00E0C6CA = {
+			isa = PBXGroup;
+			children = (
+				49D942D52696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */,
+				49D942EC2696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests */,
+				49D942F72696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests */,
+				49D942D42696F97F00E0C6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D942D42696F97F00E0C6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D942D32696F97F00E0C6CA /* Super-Oblique-Strategies-Starter.app */,
+				49D942E92696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests.xctest */,
+				49D942F42696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D942D52696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */ = {
+			isa = PBXGroup;
+			children = (
+				49D9431D2696F9C100E0C6CA /* Models */,
+				49D943112696F99F00E0C6CA /* Views */,
+				49D943102696F99800E0C6CA /* Controllers */,
+				49D943092696F98D00E0C6CA /* Supporting files */,
+				49D942E42696F98100E0C6CA /* Info.plist */,
+			);
+			path = "Super-Oblique-Strategies-Starter";
+			sourceTree = "<group>";
+		};
+		49D942EC2696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D942ED2696F98200E0C6CA /* Super_Oblique_Strategies_StarterTests.swift */,
+				49D942EF2696F98200E0C6CA /* Info.plist */,
+			);
+			path = "Super-Oblique-Strategies-StarterTests";
+			sourceTree = "<group>";
+		};
+		49D942F72696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49D942F82696F98200E0C6CA /* Super_Oblique_Strategies_StarterUITests.swift */,
+				49D942FA2696F98200E0C6CA /* Info.plist */,
+			);
+			path = "Super-Oblique-Strategies-StarterUITests";
+			sourceTree = "<group>";
+		};
+		49D943092696F98D00E0C6CA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				49D942D62696F97F00E0C6CA /* AppDelegate.swift */,
+				49D942D82696F97F00E0C6CA /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		49D943102696F99800E0C6CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49D942DA2696F97F00E0C6CA /* ViewController.swift */,
+				49D943212696FB3F00E0C6CA /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49D943112696F99F00E0C6CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49D942DC2696F97F00E0C6CA /* Main.storyboard */,
+				49D942DF2696F98100E0C6CA /* Assets.xcassets */,
+				49D942E12696F98100E0C6CA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49D9431D2696F9C100E0C6CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49D943152696F9B700E0C6CA /* ObliqueMessages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D942D22696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D942FD2696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-Starter" */;
+			buildPhases = (
+				49D942CF2696F97F00E0C6CA /* Sources */,
+				49D942D02696F97F00E0C6CA /* Frameworks */,
+				49D942D12696F97F00E0C6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super-Oblique-Strategies-Starter";
+			productName = "Super-Oblique-Strategies-Starter";
+			productReference = 49D942D32696F97F00E0C6CA /* Super-Oblique-Strategies-Starter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D942E82696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D943002696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-StarterTests" */;
+			buildPhases = (
+				49D942E52696F98200E0C6CA /* Sources */,
+				49D942E62696F98200E0C6CA /* Frameworks */,
+				49D942E72696F98200E0C6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D942EB2696F98200E0C6CA /* PBXTargetDependency */,
+			);
+			name = "Super-Oblique-Strategies-StarterTests";
+			productName = "Super-Oblique-Strategies-StarterTests";
+			productReference = 49D942E92696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49D942F32696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D943032696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-StarterUITests" */;
+			buildPhases = (
+				49D942F02696F98200E0C6CA /* Sources */,
+				49D942F12696F98200E0C6CA /* Frameworks */,
+				49D942F22696F98200E0C6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D942F62696F98200E0C6CA /* PBXTargetDependency */,
+			);
+			name = "Super-Oblique-Strategies-StarterUITests";
+			productName = "Super-Oblique-Strategies-StarterUITests";
+			productReference = 49D942F42696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D942CB2696F97F00E0C6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					49D942D22696F97F00E0C6CA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					49D942E82696F98200E0C6CA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 49D942D22696F97F00E0C6CA;
+					};
+					49D942F32696F98200E0C6CA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 49D942D22696F97F00E0C6CA;
+					};
+				};
+			};
+			buildConfigurationList = 49D942CE2696F97F00E0C6CA /* Build configuration list for PBXProject "Super-Oblique-Strategies-Starter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D942CA2696F97F00E0C6CA;
+			productRefGroup = 49D942D42696F97F00E0C6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D942D22696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */,
+				49D942E82696F98200E0C6CA /* Super-Oblique-Strategies-StarterTests */,
+				49D942F32696F98200E0C6CA /* Super-Oblique-Strategies-StarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D942D12696F97F00E0C6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D942E32696F98100E0C6CA /* LaunchScreen.storyboard in Resources */,
+				49D942E02696F98100E0C6CA /* Assets.xcassets in Resources */,
+				49D942DE2696F97F00E0C6CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942E72696F98200E0C6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942F22696F98200E0C6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D942CF2696F97F00E0C6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D942DB2696F97F00E0C6CA /* ViewController.swift in Sources */,
+				49D943162696F9B700E0C6CA /* ObliqueMessages.swift in Sources */,
+				49D943222696FB3F00E0C6CA /* DetailViewController.swift in Sources */,
+				49D942D72696F97F00E0C6CA /* AppDelegate.swift in Sources */,
+				49D942D92696F97F00E0C6CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942E52696F98200E0C6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D942EE2696F98200E0C6CA /* Super_Oblique_Strategies_StarterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D942F02696F98200E0C6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D942F92696F98200E0C6CA /* Super_Oblique_Strategies_StarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D942EB2696F98200E0C6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D942D22696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */;
+			targetProxy = 49D942EA2696F98200E0C6CA /* PBXContainerItemProxy */;
+		};
+		49D942F62696F98200E0C6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D942D22696F97F00E0C6CA /* Super-Oblique-Strategies-Starter */;
+			targetProxy = 49D942F52696F98200E0C6CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49D942DC2696F97F00E0C6CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D942DD2696F97F00E0C6CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49D942E12696F98100E0C6CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D942E22696F98100E0C6CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D942FB2696F98200E0C6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49D942FC2696F98200E0C6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D942FE2696F98200E0C6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D942FF2696F98200E0C6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49D943012696F98200E0C6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-StarterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-StarterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super-Oblique-Strategies-Starter.app/Super-Oblique-Strategies-Starter";
+			};
+			name = Debug;
+		};
+		49D943022696F98200E0C6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-StarterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-StarterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super-Oblique-Strategies-Starter.app/Super-Oblique-Strategies-Starter";
+			};
+			name = Release;
+		};
+		49D943042696F98200E0C6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-StarterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-StarterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Super-Oblique-Strategies-Starter";
+			};
+			name = Debug;
+		};
+		49D943052696F98200E0C6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54N7YNN2NY;
+				INFOPLIST_FILE = "Super-Oblique-Strategies-StarterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DerickX.Super-Oblique-Strategies-StarterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Super-Oblique-Strategies-Starter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D942CE2696F97F00E0C6CA /* Build configuration list for PBXProject "Super-Oblique-Strategies-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D942FB2696F98200E0C6CA /* Debug */,
+				49D942FC2696F98200E0C6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D942FD2696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D942FE2696F98200E0C6CA /* Debug */,
+				49D942FF2696F98200E0C6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D943002696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-StarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D943012696F98200E0C6CA /* Debug */,
+				49D943022696F98200E0C6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D943032696F98200E0C6CA /* Build configuration list for PBXNativeTarget "Super-Oblique-Strategies-StarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D943042696F98200E0C6CA /* Debug */,
+				49D943052696F98200E0C6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D942CB2696F97F00E0C6CA /* Project object */;
+}
