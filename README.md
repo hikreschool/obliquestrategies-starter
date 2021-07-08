@@ -3,7 +3,7 @@
 
 What Will You Learn
 
-**-IBOutlets, IBActions
+-IBOutlets, IBActions
 
 -Displaying data on the Views
 
@@ -16,12 +16,12 @@ What Will You Learn
 -Use two view controllers 
 
 -Use data model
-**
+
 
 
 # App Demo
  
- <img src="/obs-recording-2.0.gif" width="485" height="1169"/>
+ <img src="/obs-recording-2.0.gif" width="585" height="800"/>
 
 
 Copyright 2021 Hikre, Inc. Hikre School
